@@ -16,6 +16,7 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 ul {
@@ -37,9 +38,36 @@ nav h1 {
     color: #F9FAF8;
 }
 
-nav ul li a {
+nav ul li a,
+.hero-second{
     font-size: 18px;
     color: #E5E7EB;
 }
 
+div.hero {
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+}
+
+.hero-main {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: bolder;
+}
+
+.signup {
+    background-color: #3882F6;
+    border-radius: 5px;
+    width: 90px;
+    height: 30px;
+    color: #F9FAF8;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+div.hero-text {
+    display: flex;
+    flex-direction: column;
+}
 
