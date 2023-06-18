@@ -42,14 +42,16 @@ nav{
     margin-bottom: 50px;
 }
 
-nav h1 {
+nav h1,
+div.text h1 {
     font-size: 24px;
     color: #F9FAF8;
     font-weight: 900;
 }
 
 nav ul li a,
-.hero-second{
+.hero-second,
+div.text p{
     font-size: 18px;
     color: #E5E7EB;
 }
@@ -81,7 +83,7 @@ div.hero {
     font-size: 18px;
     font-weight: bold;
     margin-top: 15px;
-   
+   border: #F9FAF8 3px solid;
 }
 
 div.hero-text {
@@ -153,4 +155,26 @@ blockquote p {
 figcaption {
     font-weight: 700;
     font-size: 26px;
+}
+
+figure.call {
+    background-color: #3882F6;
+    margin: 100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 60px;
+    border-radius: 20px;
+}
+
+div.text {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+}
+
+div.text h1,
+div.text p {
+    margin: 0;
 }
