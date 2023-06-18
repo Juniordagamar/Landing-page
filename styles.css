@@ -15,9 +15,13 @@ header {
 
 .container {
     display: flex;
+}
+
+nav.container {
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
+    padding-left: 10px;
 }
 
 ul {
@@ -30,7 +34,7 @@ a {
 
 ul.links {
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-end;
     gap: 40px;
 }
 
@@ -41,6 +45,7 @@ nav{
 nav h1 {
     font-size: 24px;
     color: #F9FAF8;
+    font-weight: 900;
 }
 
 nav ul li a,
@@ -59,7 +64,7 @@ div.hero {
 .hero-main {
     font-size: 48px;
     color: #F9FAF8;
-    font-weight: bolder;
+    font-weight: 900;
     margin: 0;
 }
 
@@ -94,3 +99,6 @@ div.hero-text {
     height: 250px;
 }
 
+div.container {
+    justify-content: space-evenly;
+}
