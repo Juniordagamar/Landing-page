@@ -51,7 +51,8 @@ div.text h1 {
 
 nav ul li a,
 .hero-second,
-div.text p{
+div.text p,
+p.disclaimer{
     font-size: 18px;
     color: #E5E7EB;
 }
@@ -177,4 +178,11 @@ div.text {
 div.text h1,
 div.text p {
     margin: 0;
+}
+
+footer {
+    margin: 0;
+    background-color: #1F2937;
+    text-align: center;
+    padding: 30px;
 }
